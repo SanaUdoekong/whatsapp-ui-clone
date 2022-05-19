@@ -12,6 +12,7 @@ class ChatsBloc {
   StreamSink<ChatAction> get ChatActionSink => _ChatChatStreamBuilder.sink;
   Stream<ChatAction> get ChatActionStream => _ChatChatStreamBuilder.stream;
 
+  // stringified event metadata
   final Map allChats = {
     "all": [
       {
