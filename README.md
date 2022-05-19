@@ -1,2 +1,0 @@
-# whatsapp_clone
-
